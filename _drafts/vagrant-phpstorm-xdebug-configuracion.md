@@ -19,7 +19,7 @@ Nota: Tutorial para Mac OS X 10.8.5
 xdebug:
     install: '1'
     settings:
-        xdebug.remote_host: '127.0.0.1'
+        xdebug.remote_connect_back: '1'
         xdebug.remote_enable: '1'
         xdebug.remote_port: '9000'
         xdebug.remote_handler: 'dbgp'
