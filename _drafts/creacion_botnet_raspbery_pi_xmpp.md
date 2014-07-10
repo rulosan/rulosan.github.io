@@ -63,3 +63,8 @@ Y verificamos con adium que todo este corriendo correctamente, si existiera un e
 * [raspberry botnet](http://oskarhane.com/make-your-raspberry-pis-and-other-servers-a-botnet-controlled-via-xmpp/)
 * [candy chat](http://candy-chat.github.io/candy/)
 * [Configuracion dnsmasq](http://wiki.xmpp.org/web/2010_XMPP_Interop_DNSmasq_config)
+* [Configuracion prosody](https://wiki.koumbit.net/ProsodyConfiguration#DNS)
+* [Ejemplo de configuracion DNS y Prosody](http://buddycloud.com/install)
+* [Modulos de prosody](https://code.google.com/p/prosody-modules/w/list)
+* [Ejemplo de echo bot con python](http://sleekxmpp.com/getting_started/echobot.html)
+* [Ejemplos de sleekXMPP *IMPORANTE*](https://github.com/fritzy/SleekXMPP/tree/develop/examples)
