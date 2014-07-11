@@ -68,3 +68,6 @@ Y verificamos con adium que todo este corriendo correctamente, si existiera un e
 * [Modulos de prosody](https://code.google.com/p/prosody-modules/w/list)
 * [Ejemplo de echo bot con python](http://sleekxmpp.com/getting_started/echobot.html)
 * [Ejemplos de sleekXMPP *IMPORANTE*](https://github.com/fritzy/SleekXMPP/tree/develop/examples)
+* [Lista de XEP del protocolo XMPP](http://xmpp.org/xmpp-protocols/xmpp-extensions/)
+* [Observatorios de IM servers](https://xmpp.net/index.php)
+* [Reporte primera vez](https://xmpp.net/result.php?id=45067)
