@@ -63,6 +63,7 @@ Y verificamos con adium que todo este corriendo correctamente, si existiera un e
 * [raspberry botnet](http://oskarhane.com/make-your-raspberry-pis-and-other-servers-a-botnet-controlled-via-xmpp/)
 * [candy chat](http://candy-chat.github.io/candy/)
 * [Configuracion dnsmasq](http://wiki.xmpp.org/web/2010_XMPP_Interop_DNSmasq_config)
+<<<<<<< Updated upstream
 * [Configuracion prosody](https://wiki.koumbit.net/ProsodyConfiguration#DNS)
 * [Ejemplo de configuracion DNS y Prosody](http://buddycloud.com/install)
 * [Modulos de prosody](https://code.google.com/p/prosody-modules/w/list)
@@ -71,3 +72,6 @@ Y verificamos con adium que todo este corriendo correctamente, si existiera un e
 * [Lista de XEP del protocolo XMPP](http://xmpp.org/xmpp-protocols/xmpp-extensions/)
 * [Observatorios de IM servers](https://xmpp.net/index.php)
 * [Reporte primera vez](https://xmpp.net/result.php?id=45067)
+=======
+* [liberia para python](http://xmpppy.sourceforge.net/)
+>>>>>>> Stashed changes
