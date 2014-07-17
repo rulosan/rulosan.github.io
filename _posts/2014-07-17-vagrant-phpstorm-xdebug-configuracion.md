@@ -1,3 +1,10 @@
+---
+layout: post
+category : develop
+tagline: "configurar ambiente desarrollo"
+tags : [vagrant, phpstorm, xdebug, configuracion]
+---
+
 #Configurando PHP 5.5 + Vagrant + Apache2 + MySQL + XDebug + PHPStorm
 Nota: Tutorial para Mac OS X 10.8.5
 
@@ -14,21 +21,22 @@ Nota: Tutorial para Mac OS X 10.8.5
 	* Si ocurre algun error se mostrará de color rojo, por lo general son problemas de sintaxis en .yaml si le editaste algo.
 	* Si todo va chido, saldrá un bonito elefantito en ASCII.
 7. Lo que le meti de mi cosecha es en el directorio de ```puphpet/config.yaml``` modifique una configuración del Xdebug para que envie el paquete udp al host que esta haciendo la peticion y __PhpStorm__ pueda funcionar de manera correcta.
-	
-```
-xdebug:
-    install: '1'
-    settings:
-        xdebug.remote_connect_back: '1'
-        xdebug.remote_enable: '1'
-        xdebug.remote_port: '9000'
-        xdebug.remote_handler: 'dbgp'
-        xdebug.remote_mode: 'req'
-        xdebug.profiler_enable: '0'
-        xdebug.profiler_enable_trigger: '1'
-        xdebug.remote_autostart: '1'
-        xdebug.idekey: 'PHPSTORM'
-        xdebug.remote_log: '/var/log/xdebug.log'
-```
+
+Esta es la configuracion del xdebug
+
+     xdebug:
+        install: '1'
+        settings:
+            xdebug.remote_connect_back: '1'
+            xdebug.remote_enable: '1'
+            xdebug.remote_port: '9000'
+            xdebug.remote_handler: 'dbgp'
+            xdebug.remote_mode: 'req'
+            xdebug.profiler_enable: '0'
+            xdebug.profiler_enable_trigger: '1'
+            xdebug.remote_autostart: '1'
+            xdebug.idekey: 'PHPSTORM'
+            xdebug.remote_log: '/var/log/xdebug.log'
+
 
 De la siguiente manera cuando actives __PhpStorm__ para que escuche peticiones puedas debuggear correctamente

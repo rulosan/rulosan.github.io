@@ -1,17 +1,27 @@
+---
+layout: post
+title:  "Simular Botnet con XMPP"
+date:   2014-02-25 16:26:47
+categories: prueba botnet xmpp
+---
+
 #Botnet con XMPP y Raspberry Pi
 
 ##Objetivo
 
-El siguiente tutorial es en sentido educativo y de experimentación de manera controlada de Botnets.
+El siguiente tutorial es en sentido educativo y de experimentación de manera controlada de Botnets, es decir se usa en un ambiente para fines educativos y experimentales y no hacer un daño o robo de información
 
 ##¿Qué es un botnet?
 
+Básicamente son un conjunto de maquinas que contienen un software (malware por lo general) que se conectan a un C&C (Command and Control) controlado por alguien para dirigir ciertas actividades (por lo general criminales).
+
+En nuestro caso es solo por ocio y conocer como funcionan.
+
+Hay muchos que hablan por IRC, en este caso para variarle un poco yo lo quiero hacer con XMPP.
 
 ##¿Qué es XMPP?
 
-
-##Requerimientos
-
+Es un protocolo para mensajeria instantanea que es totalmente abierto, y muchas aplicaciones y servicios lo utilizan, en el caso de este experimento mi C&C puede ser un cliente Adium, ChatSecure, etc.
 
 ##Configuración del Servidor XMPP
 
@@ -56,6 +66,15 @@ Checamos el log ``tail -f /var/log/prosody/prosody.log``
 
 Y verificamos con adium que todo este corriendo correctamente, si existiera un erro tendria que salir dentro del log.
 
+## Desarrollo de los bots
+
+* Que corran con python 2.7.
+* Que se autoactualicen con git
+* Que haya tipos diferentes de bots.
+* Que entienda comandos normales de bash, y que haya tags de comandos.
+
+
+
 
 ## Links de apoyo
 
@@ -63,7 +82,6 @@ Y verificamos con adium que todo este corriendo correctamente, si existiera un e
 * [raspberry botnet](http://oskarhane.com/make-your-raspberry-pis-and-other-servers-a-botnet-controlled-via-xmpp/)
 * [candy chat](http://candy-chat.github.io/candy/)
 * [Configuracion dnsmasq](http://wiki.xmpp.org/web/2010_XMPP_Interop_DNSmasq_config)
-<<<<<<< Updated upstream
 * [Configuracion prosody](https://wiki.koumbit.net/ProsodyConfiguration#DNS)
 * [Ejemplo de configuracion DNS y Prosody](http://buddycloud.com/install)
 * [Modulos de prosody](https://code.google.com/p/prosody-modules/w/list)
@@ -72,6 +90,4 @@ Y verificamos con adium que todo este corriendo correctamente, si existiera un e
 * [Lista de XEP del protocolo XMPP](http://xmpp.org/xmpp-protocols/xmpp-extensions/)
 * [Observatorios de IM servers](https://xmpp.net/index.php)
 * [Reporte primera vez](https://xmpp.net/result.php?id=45067)
-=======
 * [liberia para python](http://xmpppy.sourceforge.net/)
->>>>>>> Stashed changes
