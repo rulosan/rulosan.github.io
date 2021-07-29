@@ -2,7 +2,7 @@
 layout: post
 title:  "Instalando OpenVAS en Ubuntu 18.04"
 date:   2019-01-19 19:36:56 -0600
-categories: jekyll update
+categories: tutorial
 ---
 
 # Introducción.
